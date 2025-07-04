@@ -277,9 +277,9 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.title("Robot Controller")
 
-    tk.Button(root, text="🧭 Explore", width=25, command=explorecmd).pack(pady=5)
-    tk.Button(root, text="🧠 Solve", width=25, command=handle_solve).pack(pady=5)
-    tk.Button(root, text="🔁 Reverse", width=25, command=reversecmd).pack(pady=5)
-    tk.Button(root, text="🚀 Go", width=25, command=gocmd).pack(pady=5)
+    tk.Button(root, text=" Explore", width=25, command=explorecmd).pack(pady=5)
+    tk.Button(root, text=" Solve", width=25, command=handle_solve).pack(pady=5)
+    tk.Button(root, text=" Reverse", width=25, command=reversecmd).pack(pady=5)
+    tk.Button(root, text=" Go", width=25, command=gocmd).pack(pady=5)
 
     root.mainloop()
