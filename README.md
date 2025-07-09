@@ -13,3 +13,4 @@ version = project.version(3)
 dataset = version.download("yolov11")
 ```
 
+# Train your model using TrainingYOLO.ipynb or using this link as reference: "https://colab.research.google.com/drive/11Nv1zIOYJO0zZKMIq6kAe7WQ8CIK08jP?usp=sharing"
