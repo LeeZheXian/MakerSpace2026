@@ -9,6 +9,7 @@ import numpy as np
 from ultralytics import YOLO
 import torch
 
+#IMPORTANT: ONCE RASPBERRY PI IS USED, ANYTHING RELATED TO WIFI SHALL BE REMOVED
 
 HOST = '192.168.x.x'               # ESP32's IP address
 PORT = 8888
